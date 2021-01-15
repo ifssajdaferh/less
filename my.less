@@ -1,0 +1,31 @@
+@color:cyan;
+@fontsize:18px;
+@basesize:10px;
+html {
+    font-size: @basesize;
+}
+body {
+    background-color: @color;
+
+   
+}
+
+ //less的嵌套以及计算
+.d1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: @color;
+  a {
+      margin-left: 20px;
+      text-decoration: none;
+      &:hover{
+          color: black;
+      }
+  }
+  .d2{
+      width: 50rem / @basesize;
+      height: 100rem / @basesize;
+      background-color: #444444 - #222222;
+  }
+}

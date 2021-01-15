@@ -1,0 +1,24 @@
+html {
+  font-size: 10px;
+}
+body {
+  background-color: cyan;
+}
+.d1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  background-color: cyan;
+}
+.d1 a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+.d1 a:hover {
+  color: black;
+}
+.d1 .d2 {
+  width: 5rem;
+  height: 10rem;
+  background-color: #222222;
+}
